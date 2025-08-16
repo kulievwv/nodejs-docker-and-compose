@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store
+
+# build outputs
+/dist
+/coverage
+
+# tests and local tooling
+/test
+/.vscode
+/.idea
+*.local.*
+
+# env files
+.backend.env
+*.env
+
+# git
+/.git
+.gitignore
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
